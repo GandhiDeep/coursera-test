@@ -4,6 +4,6 @@ var helloSpeaker = function(name)
 {
   console.log(speakWord + " " + name);
 }
-  window.helloSpeaker = healloSpeaker; 
+  window.helloSpeaker = helloSpeaker; 
 
 })(window);
